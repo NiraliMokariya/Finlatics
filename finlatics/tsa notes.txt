@@ -1,0 +1,19 @@
+time series-set of obs measured at specified time interval
+time series analysis attempts to identify those factors that exert influence on the values in the series
+TSA-basic tool for forecasting
+industry and govt must forecast future activity to make decisions and plans to meet projected changed
+used-->weather,demography,indices/prices,sales/manufacturing
+time series components:
+1)Secular trend-identifies the underlying trendd(direction) of the data.usually descrribed by line of best fit
+  the secular trend is influenced by: popl changes,market changes,technological changes,productiity changes
+  5 techniques we use to measure secular trends:
+  -graphing
+  -semi average : if 13 obs are given,we take seven from first and 7 from end and find total and later,find avg
+  -moving average : we have to  find either 3 yearly moving avg,4,5 etc and acc to that we have to add either 3 obs and find avg or so on(for even number of obs,we have to first find avg and then find 2 year moving avg later on)
+  -least square method: uses mathematical formula to develop a trend line for predictive purposes ie Yt=a+bx where a = summation(y)/n and b=summation(xy)/summation(x^2)
+  -exponential smoothing
+2)seasonal variation-pattern that recurs regularly over time(seasonal movements refers to regular periodic fluctutaions that occur in each time period-yearly,monthly,daily)
+3)cyclical variation-recurring patterns here as well but with a longer and eratic time scale compared to seasonal variations. Ex: floods,wars,changes in interest rates.
+4)irregular variation-it usually occurs randomly and may be linked to events that als occur randomly. ex:collapse of companies,natural disasters
+
+*Periodicity*-freq of something occuring often
